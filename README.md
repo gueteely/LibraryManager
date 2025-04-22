@@ -155,9 +155,12 @@ curl -X GET "http://localhost:8080/logs/period?from=2025-01-01T00:00:00&to=2025-
 
 Для проверки работы с БД можно воспользоваться консолями H2 для каждого сервиса:
 
-* Auth Service: http://localhost:8081/h2-console JDBC URL: jdbc:h2:mem:authdb USERNAME: sa PASWORD: оставить пустым
-* Book Service: http://localhost:8082/h2-console JDBC URL: jdbc:h2:file:/data/librarydb USERNAME: оставить пустым PASWORD: оставить пустым
-* Logging Service: http://localhost:8083/h2-console JDBC URL: jdbc:h2:mem:logsdb USERNAME: sa PASWORD: оставить пустым
+* Auth Service: http://localhost:8081/h2-console
+  JDBC URL: **jdbc:h2:mem:authdb** USERNAME: **sa** PASWORD: оставить пустым
+* Book Service: http://localhost:8082/h2-console
+  JDBC URL: **jdbc:h2:file:/data/librarydb** USERNAME: оставить пустым PASWORD: оставить пустым
+* Logging Service: http://localhost:8083/h2-console
+  JDBC URL: **jdbc:h2:mem:logsdb** USERNAME: **sa** PASWORD: оставить пустым
 
 Для проверки работы Eureka Server и зарегистрированных сервисов перейдите по адресу:
 http://localhost:8761
