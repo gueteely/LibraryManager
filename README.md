@@ -165,6 +165,6 @@ http://localhost:8761
 
 ### Тестирование приложения
 
-Тесты находятся по пути (запуск через Docker или напрямую в IDEA):
+Тесты находятся по пути (запуск через Docker или напрямую в IDE):
 
 ***book-service\src\test\java\com\library\eureka\application\bookservice\BookServiceTest.java***
