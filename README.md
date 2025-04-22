@@ -34,7 +34,7 @@ curl -X POST http://localhost:8080/auth/register \
 
 * JDBC URL: jdbc:h2:mem:authdb
 
-* Name: sa
+* User Name: sa
 
 * Password: 
 (оставить пустым)
@@ -157,13 +157,13 @@ curl -X GET "http://localhost:8080/logs/period?from=2025-01-01T00:00:00&to=2025-
 
 * Auth Service: http://localhost:8081/h2-console
   
-  JDBC URL: **jdbc:h2:mem:authdb** USERNAME: **sa** PASWORD: оставить пустым
+  JDBC URL: **jdbc:h2:mem:authdb** User Name: **sa** Password: (оставить пустым)
 * Book Service: http://localhost:8082/h2-console
   
-  JDBC URL: **jdbc:h2:file:/data/librarydb** USERNAME: оставить пустым PASWORD: оставить пустым
+  JDBC URL: **jdbc:h2:file:/data/librarydb** User Name: (оставить пустым) Password: (оставить пустым)
 * Logging Service: http://localhost:8083/h2-console
   
-  JDBC URL: **jdbc:h2:mem:logsdb** USERNAME: **sa** PASWORD: оставить пустым
+  JDBC URL: **jdbc:h2:mem:logsdb** User Name: **sa** Password: (оставить пустым)
 
 Для проверки работы Eureka Server и зарегистрированных сервисов перейдите по адресу:
 http://localhost:8761
