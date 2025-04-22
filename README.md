@@ -158,17 +158,25 @@ curl -X GET "http://localhost:8080/logs/period?from=2025-01-01T00:00:00&to=2025-
 * Auth Service: http://localhost:8081/h2-console
   
   JDBC URL: **jdbc:h2:mem:authdb**
+  
   UserName: **sa**
+  
   Password: (оставить пустым)
+  
 * Book Service: http://localhost:8082/h2-console
   
   JDBC URL: **jdbc:h2:file:/data/librarydb**
+  
   UserName: (оставить пустым)
+  
   Password: (оставить пустым)
+  
 * Logging Service: http://localhost:8083/h2-console
   
   JDBC URL: **jdbc:h2:mem:logsdb**
+  
   UserName: **sa**
+  
   Password: (оставить пустым)
 
 Для проверки работы Eureka Server и зарегистрированных сервисов перейдите по адресу:
