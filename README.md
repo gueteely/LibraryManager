@@ -32,7 +32,7 @@ curl -X POST http://localhost:8080/auth/register \
 1. Откройте консоль H2 по адресу: http://localhost:8081/h2-console
 2. Подключитесь к базе данных с параметрами из application.properties:
 
-* JDBC URL: jdbc:h2:mem
+* JDBC URL: jdbc:h2:mem:authdb
 
 * Name: sa
 
