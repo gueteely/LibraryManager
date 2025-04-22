@@ -34,7 +34,7 @@ curl -X POST http://localhost:8080/auth/register \
 
 * JDBC URL: jdbc:h2:mem:authdb
 
-* UserName: sa
+* User Name: sa
 
 * Password: 
 (оставить пустым)
@@ -159,7 +159,7 @@ curl -X GET "http://localhost:8080/logs/period?from=2025-01-01T00:00:00&to=2025-
   
   JDBC URL: **jdbc:h2:mem:authdb**
   
-  UserName: **sa**
+  User Name: **sa**
   
   Password: (оставить пустым)
   
@@ -167,7 +167,7 @@ curl -X GET "http://localhost:8080/logs/period?from=2025-01-01T00:00:00&to=2025-
   
   JDBC URL: **jdbc:h2:file:/data/librarydb**
   
-  UserName: (оставить пустым)
+  User Name: (оставить пустым)
   
   Password: (оставить пустым)
   
@@ -175,7 +175,7 @@ curl -X GET "http://localhost:8080/logs/period?from=2025-01-01T00:00:00&to=2025-
   
   JDBC URL: **jdbc:h2:mem:logsdb**
   
-  UserName: **sa**
+  User Name: **sa**
   
   Password: (оставить пустым)
 
